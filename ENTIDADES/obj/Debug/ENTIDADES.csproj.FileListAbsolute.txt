@@ -1,0 +1,23 @@
+C:\Users\nicol\Desktop\SDR\ENTIDADES\bin\Debug\ENTIDADES.dll
+C:\Users\nicol\Desktop\SDR\ENTIDADES\bin\Debug\ENTIDADES.pdb
+C:\Users\nicol\Desktop\SDR\ENTIDADES\obj\Debug\ENTIDADES.csprojAssemblyReference.cache
+C:\Users\nicol\Desktop\SDR\ENTIDADES\obj\Debug\ENTIDADES.csproj.CoreCompileInputs.cache
+C:\Users\nicol\Desktop\SDR\ENTIDADES\obj\Debug\ENTIDADES.dll
+C:\Users\nicol\Desktop\SDR\ENTIDADES\obj\Debug\ENTIDADES.pdb
+C:\Users\Brian\Documents\Programacion III\Primer Parcial\SDR\ENTIDADES\bin\Debug\ENTIDADES.dll
+C:\Users\Brian\Documents\Programacion III\Primer Parcial\SDR\ENTIDADES\bin\Debug\ENTIDADES.pdb
+C:\Users\Brian\Documents\Programacion III\Primer Parcial\SDR\ENTIDADES\obj\Debug\ENTIDADES.csprojAssemblyReference.cache
+C:\Users\Brian\Documents\Programacion III\Primer Parcial\SDR\ENTIDADES\obj\Debug\ENTIDADES.dll
+C:\Users\Brian\Documents\Programacion III\Primer Parcial\SDR\ENTIDADES\obj\Debug\ENTIDADES.pdb
+C:\Users\nicol\Desktop\SDR-Brian\SDR\ENTIDADES\bin\Debug\ENTIDADES.dll
+C:\Users\nicol\Desktop\SDR-Brian\SDR\ENTIDADES\bin\Debug\ENTIDADES.pdb
+C:\Users\nicol\Desktop\SDR-Brian\SDR\ENTIDADES\obj\Debug\ENTIDADES.csprojAssemblyReference.cache
+C:\Users\nicol\Desktop\SDR-Brian\SDR\ENTIDADES\obj\Debug\ENTIDADES.csproj.CoreCompileInputs.cache
+C:\Users\nicol\Desktop\SDR-Brian\SDR\ENTIDADES\obj\Debug\ENTIDADES.dll
+C:\Users\nicol\Desktop\SDR-Brian\SDR\ENTIDADES\obj\Debug\ENTIDADES.pdb
+C:\Users\Nachito\Desktop\sdr final\SDR\ENTIDADES\bin\Debug\ENTIDADES.dll
+C:\Users\Nachito\Desktop\sdr final\SDR\ENTIDADES\bin\Debug\ENTIDADES.pdb
+C:\Users\Nachito\Desktop\sdr final\SDR\ENTIDADES\obj\Debug\ENTIDADES.csprojAssemblyReference.cache
+C:\Users\Nachito\Desktop\sdr final\SDR\ENTIDADES\obj\Debug\ENTIDADES.csproj.CoreCompileInputs.cache
+C:\Users\Nachito\Desktop\sdr final\SDR\ENTIDADES\obj\Debug\ENTIDADES.dll
+C:\Users\Nachito\Desktop\sdr final\SDR\ENTIDADES\obj\Debug\ENTIDADES.pdb

@@ -1,0 +1,43 @@
+C:\Users\nicol\Desktop\SDR\NEGOCIO\obj\Debug\NEGOCIO.csprojAssemblyReference.cache
+C:\Users\nicol\Desktop\SDR\NEGOCIO\obj\Debug\NEGOCIO.csproj.CoreCompileInputs.cache
+C:\Users\nicol\Desktop\SDR\NEGOCIO\bin\Debug\NEGOCIO.dll
+C:\Users\nicol\Desktop\SDR\NEGOCIO\bin\Debug\NEGOCIO.pdb
+C:\Users\nicol\Desktop\SDR\NEGOCIO\bin\Debug\DAO.dll
+C:\Users\nicol\Desktop\SDR\NEGOCIO\bin\Debug\ENTIDADES.dll
+C:\Users\nicol\Desktop\SDR\NEGOCIO\bin\Debug\DAO.pdb
+C:\Users\nicol\Desktop\SDR\NEGOCIO\bin\Debug\ENTIDADES.pdb
+C:\Users\nicol\Desktop\SDR\NEGOCIO\obj\Debug\NEGOCIO.csproj.CopyComplete
+C:\Users\nicol\Desktop\SDR\NEGOCIO\obj\Debug\NEGOCIO.dll
+C:\Users\nicol\Desktop\SDR\NEGOCIO\obj\Debug\NEGOCIO.pdb
+C:\Users\Brian\Documents\Programacion III\Primer Parcial\SDR\NEGOCIO\bin\Debug\NEGOCIO.dll
+C:\Users\Brian\Documents\Programacion III\Primer Parcial\SDR\NEGOCIO\bin\Debug\NEGOCIO.pdb
+C:\Users\Brian\Documents\Programacion III\Primer Parcial\SDR\NEGOCIO\bin\Debug\DAO.dll
+C:\Users\Brian\Documents\Programacion III\Primer Parcial\SDR\NEGOCIO\bin\Debug\ENTIDADES.dll
+C:\Users\Brian\Documents\Programacion III\Primer Parcial\SDR\NEGOCIO\bin\Debug\DAO.pdb
+C:\Users\Brian\Documents\Programacion III\Primer Parcial\SDR\NEGOCIO\bin\Debug\ENTIDADES.pdb
+C:\Users\Brian\Documents\Programacion III\Primer Parcial\SDR\NEGOCIO\obj\Debug\NEGOCIO.csprojAssemblyReference.cache
+C:\Users\Brian\Documents\Programacion III\Primer Parcial\SDR\NEGOCIO\obj\Debug\NEGOCIO.csproj.CopyComplete
+C:\Users\Brian\Documents\Programacion III\Primer Parcial\SDR\NEGOCIO\obj\Debug\NEGOCIO.dll
+C:\Users\Brian\Documents\Programacion III\Primer Parcial\SDR\NEGOCIO\obj\Debug\NEGOCIO.pdb
+C:\Users\nicol\Desktop\SDR-Brian\SDR\NEGOCIO\bin\Debug\NEGOCIO.dll
+C:\Users\nicol\Desktop\SDR-Brian\SDR\NEGOCIO\bin\Debug\NEGOCIO.pdb
+C:\Users\nicol\Desktop\SDR-Brian\SDR\NEGOCIO\bin\Debug\DAO.dll
+C:\Users\nicol\Desktop\SDR-Brian\SDR\NEGOCIO\bin\Debug\ENTIDADES.dll
+C:\Users\nicol\Desktop\SDR-Brian\SDR\NEGOCIO\bin\Debug\DAO.pdb
+C:\Users\nicol\Desktop\SDR-Brian\SDR\NEGOCIO\bin\Debug\ENTIDADES.pdb
+C:\Users\nicol\Desktop\SDR-Brian\SDR\NEGOCIO\obj\Debug\NEGOCIO.csprojAssemblyReference.cache
+C:\Users\nicol\Desktop\SDR-Brian\SDR\NEGOCIO\obj\Debug\NEGOCIO.csproj.CoreCompileInputs.cache
+C:\Users\nicol\Desktop\SDR-Brian\SDR\NEGOCIO\obj\Debug\NEGOCIO.csproj.CopyComplete
+C:\Users\nicol\Desktop\SDR-Brian\SDR\NEGOCIO\obj\Debug\NEGOCIO.dll
+C:\Users\nicol\Desktop\SDR-Brian\SDR\NEGOCIO\obj\Debug\NEGOCIO.pdb
+C:\Users\Nachito\Desktop\sdr final\SDR\NEGOCIO\bin\Debug\NEGOCIO.dll
+C:\Users\Nachito\Desktop\sdr final\SDR\NEGOCIO\bin\Debug\NEGOCIO.pdb
+C:\Users\Nachito\Desktop\sdr final\SDR\NEGOCIO\bin\Debug\DAO.dll
+C:\Users\Nachito\Desktop\sdr final\SDR\NEGOCIO\bin\Debug\ENTIDADES.dll
+C:\Users\Nachito\Desktop\sdr final\SDR\NEGOCIO\bin\Debug\DAO.pdb
+C:\Users\Nachito\Desktop\sdr final\SDR\NEGOCIO\bin\Debug\ENTIDADES.pdb
+C:\Users\Nachito\Desktop\sdr final\SDR\NEGOCIO\obj\Debug\NEGOCIO.csprojAssemblyReference.cache
+C:\Users\Nachito\Desktop\sdr final\SDR\NEGOCIO\obj\Debug\NEGOCIO.csproj.CoreCompileInputs.cache
+C:\Users\Nachito\Desktop\sdr final\SDR\NEGOCIO\obj\Debug\NEGOCIO.csproj.CopyComplete
+C:\Users\Nachito\Desktop\sdr final\SDR\NEGOCIO\obj\Debug\NEGOCIO.dll
+C:\Users\Nachito\Desktop\sdr final\SDR\NEGOCIO\obj\Debug\NEGOCIO.pdb

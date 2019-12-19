@@ -1,0 +1,38 @@
+body{
+    background: url(fondo.jpg);
+    background-size:cover;
+}
+.jumbotron {
+    text-align: center;
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+    text-shadow: 2px 2px #000;
+    margin-top:100px;
+  
+}
+  
+  .bg-cover {
+    background-image: url(fondo3.jpg);
+    background-size: cover;
+    color: white;
+    background-position: center center;
+    position: relative;
+    z-index: -2;
+    
+}
+  
+  .overlay {
+    background-color: #000;
+    opacity: 0.5;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+  }
+
+.carousel img{
+    width: 150px;
+    height: 400px;
+}

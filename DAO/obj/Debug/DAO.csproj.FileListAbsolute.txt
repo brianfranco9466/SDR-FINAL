@@ -1,0 +1,35 @@
+C:\Users\nicol\Desktop\SDR\DAO\bin\Debug\DAO.dll
+C:\Users\nicol\Desktop\SDR\DAO\bin\Debug\DAO.pdb
+C:\Users\nicol\Desktop\SDR\DAO\bin\Debug\ENTIDADES.dll
+C:\Users\nicol\Desktop\SDR\DAO\bin\Debug\ENTIDADES.pdb
+C:\Users\nicol\Desktop\SDR\DAO\obj\Debug\DAO.csprojAssemblyReference.cache
+C:\Users\nicol\Desktop\SDR\DAO\obj\Debug\DAO.csproj.CoreCompileInputs.cache
+C:\Users\nicol\Desktop\SDR\DAO\obj\Debug\DAO.csproj.CopyComplete
+C:\Users\nicol\Desktop\SDR\DAO\obj\Debug\DAO.dll
+C:\Users\nicol\Desktop\SDR\DAO\obj\Debug\DAO.pdb
+C:\Users\Brian\Documents\Programacion III\Primer Parcial\SDR\DAO\bin\Debug\DAO.dll
+C:\Users\Brian\Documents\Programacion III\Primer Parcial\SDR\DAO\bin\Debug\DAO.pdb
+C:\Users\Brian\Documents\Programacion III\Primer Parcial\SDR\DAO\bin\Debug\ENTIDADES.dll
+C:\Users\Brian\Documents\Programacion III\Primer Parcial\SDR\DAO\bin\Debug\ENTIDADES.pdb
+C:\Users\Brian\Documents\Programacion III\Primer Parcial\SDR\DAO\obj\Debug\DAO.csprojAssemblyReference.cache
+C:\Users\Brian\Documents\Programacion III\Primer Parcial\SDR\DAO\obj\Debug\DAO.csproj.CopyComplete
+C:\Users\Brian\Documents\Programacion III\Primer Parcial\SDR\DAO\obj\Debug\DAO.dll
+C:\Users\Brian\Documents\Programacion III\Primer Parcial\SDR\DAO\obj\Debug\DAO.pdb
+C:\Users\nicol\Desktop\SDR-Brian\SDR\DAO\bin\Debug\DAO.dll
+C:\Users\nicol\Desktop\SDR-Brian\SDR\DAO\bin\Debug\DAO.pdb
+C:\Users\nicol\Desktop\SDR-Brian\SDR\DAO\bin\Debug\ENTIDADES.dll
+C:\Users\nicol\Desktop\SDR-Brian\SDR\DAO\bin\Debug\ENTIDADES.pdb
+C:\Users\nicol\Desktop\SDR-Brian\SDR\DAO\obj\Debug\DAO.csprojAssemblyReference.cache
+C:\Users\nicol\Desktop\SDR-Brian\SDR\DAO\obj\Debug\DAO.csproj.CoreCompileInputs.cache
+C:\Users\nicol\Desktop\SDR-Brian\SDR\DAO\obj\Debug\DAO.csproj.CopyComplete
+C:\Users\nicol\Desktop\SDR-Brian\SDR\DAO\obj\Debug\DAO.dll
+C:\Users\nicol\Desktop\SDR-Brian\SDR\DAO\obj\Debug\DAO.pdb
+C:\Users\Nachito\Desktop\sdr final\SDR\DAO\bin\Debug\DAO.dll
+C:\Users\Nachito\Desktop\sdr final\SDR\DAO\bin\Debug\DAO.pdb
+C:\Users\Nachito\Desktop\sdr final\SDR\DAO\bin\Debug\ENTIDADES.dll
+C:\Users\Nachito\Desktop\sdr final\SDR\DAO\bin\Debug\ENTIDADES.pdb
+C:\Users\Nachito\Desktop\sdr final\SDR\DAO\obj\Debug\DAO.csprojAssemblyReference.cache
+C:\Users\Nachito\Desktop\sdr final\SDR\DAO\obj\Debug\DAO.csproj.CoreCompileInputs.cache
+C:\Users\Nachito\Desktop\sdr final\SDR\DAO\obj\Debug\DAO.csproj.CopyComplete
+C:\Users\Nachito\Desktop\sdr final\SDR\DAO\obj\Debug\DAO.dll
+C:\Users\Nachito\Desktop\sdr final\SDR\DAO\obj\Debug\DAO.pdb

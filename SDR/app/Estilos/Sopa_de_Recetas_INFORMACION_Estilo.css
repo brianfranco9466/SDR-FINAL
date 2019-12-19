@@ -1,0 +1,10 @@
+body{
+    background: url(fondo.jpg);
+    background-size:cover;
+}
+
+div.col  img.rounded {
+    width:500px;
+    height: 250px;
+
+}

@@ -1,0 +1,405 @@
+﻿<Project ToolsVersion="15.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.8\build\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props" Condition="Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.8\build\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" />
+  <Import Project="..\packages\Microsoft.Net.Compilers.2.6.1\build\Microsoft.Net.Compilers.props" Condition="Exists('..\packages\Microsoft.Net.Compilers.2.6.1\build\Microsoft.Net.Compilers.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{0554707E-55BE-4C2A-A456-EF4D137A4F34}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SDR</RootNamespace>
+    <AssemblyName>SDR</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <Use64BitIISExpress />
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform">
+      <HintPath>..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.8\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Apariencia\Estilos\Sopa_de_Recetas_INFORMACION_Estilo.css" />
+    <Content Include="Apariencia\Estilos\Sopa_de_Recetas_INGRESO_Estilo.css" />
+    <Content Include="Apariencia\Estilos\Sopa_de_Recetas_PRINCIPAL_Estilo.css" />
+    <Content Include="Apariencia\Estilos\Sopa_de_Recetas_RECETAS_Estilo.css" />
+    <Content Include="Apariencia\Imagenes\Facebook.png" />
+    <Content Include="Apariencia\Imagenes\fondo.jpg" />
+    <Content Include="Apariencia\Imagenes\fondo3.jpg" />
+    <Content Include="Apariencia\Imagenes\Group.jpg" />
+    <Content Include="Apariencia\Imagenes\Icono_Recetas.jpg" />
+    <Content Include="Apariencia\Imagenes\Img1.jpg" />
+    <Content Include="Apariencia\Imagenes\Img2.jpg" />
+    <Content Include="Apariencia\Imagenes\Img3.jpg" />
+    <Content Include="Apariencia\Imagenes\index.jpg" />
+    <Content Include="Apariencia\Imagenes\Instagram.png" />
+    <Content Include="Apariencia\Imagenes\sopa.png" />
+    <Content Include="Apariencia\Imagenes\Top_User.jpg" />
+    <Content Include="Apariencia\Imagenes\Twitter.png" />
+    <Content Include="Apariencia\Imagenes\user.png" />
+    <Content Include="Apariencia\Imagenes\YouTube.png" />
+    <Content Include="Apariencia\Sopa_de_Recetas_MODIFICAR_MIS_RECETAS_INGREDIENTE.aspx" />
+    <Content Include="Apariencia\Sopa_de_Recetas_ADMINISTRADOR.aspx" />
+    <Content Include="Apariencia\Sopa_de_Recetas_CREAR_RECETAS.aspx" />
+    <Content Include="Apariencia\Sopa_de_Recetas_CREAR_RECETAS_IMAGEN.aspx" />
+    <Content Include="Apariencia\Sopa_de_Recetas_CREAR_RECETAS_INGREDIENTE.aspx" />
+    <Content Include="Apariencia\Sopa_de_Recetas_CREAR_RECETAS_INSTRUCCIONES.aspx" />
+    <Content Include="Apariencia\Sopa_de_Recetas_INFORMACION.aspx" />
+    <Content Include="Apariencia\Sopa_de_Recetas_INGRESO.aspx" />
+    <Content Include="Apariencia\Sopa_de_Recetas_MIS_RECETAS.aspx" />
+    <Content Include="Apariencia\Sopa_de_Recetas_MODIFICAR_MIS_RECETAS.aspx" />
+    <Content Include="Apariencia\Sopa_de_Recetas_MODIFICAR_MIS_RECETAS_IMAGEN.aspx" />
+    <Content Include="Apariencia\Sopa_de_Recetas_MODIFICAR_MIS_RECETAS_INSTRUCCIONES.aspx" />
+    <Content Include="Apariencia\Sopa_de_Recetas_MOSTRAR_RECETAS.aspx" />
+    <Content Include="Apariencia\Sopa_de_Recetas_PERFIL_DE_ADMINISTRADOR.aspx" />
+    <Content Include="Apariencia\Sopa_de_Recetas_PERFIL_DE_USUARIO.aspx" />
+    <Content Include="Apariencia\Sopa_de_Recetas_PRINCIPAL.aspx" />
+    <Content Include="Apariencia\Sopa_de_Recetas_RECETAS.aspx" />
+    <Content Include="Apariencia\Sopa_de_Recetas_RECUPERAR_CLAVE.aspx" />
+    <Content Include="Apariencia\Sopa_de_Recetas_REGISTRO.aspx" />
+    <Content Include="Centro\Apariencia\AgregarImagenXReceta.aspx" />
+    <Content Include="Centro\Apariencia\AgregarReceta.aspx" />
+    <Content Include="Centro\Apariencia\Imagenes\Flecha_Volver.png" />
+    <Content Include="Centro\Apariencia\Imagenes\user.png" />
+    <Content Include="Centro\Apariencia\Perfil.aspx" />
+    <Content Include="Centro\Apariencia\Principal.aspx" />
+    <Content Include="Enlaces\Apariencia\Configuracion.aspx" />
+    <Content Include="Enlaces\Apariencia\MisRecetas.aspx" />
+    <Content Include="Enlaces\Apariencia\Perfil.aspx" />
+    <Content Include="Enlaces\Apariencia\Recetario.aspx" />
+    <Content Include="Entrada\Apariencia\Imagenes\soup.png" />
+    <Content Include="Entrada\Apariencia\Ingreso.aspx" />
+    <Content Include="Entrada\Apariencia\Recuperacion.aspx" />
+    <Content Include="Entrada\Apariencia\Registro.aspx" />
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Apariencia\Principal.Master.cs">
+      <DependentUpon>Principal.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Apariencia\Principal.Master.designer.cs">
+      <DependentUpon>Principal.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Apariencia\Sopa_de_Recetas_MODIFICAR_MIS_RECETAS_INGREDIENTE.aspx.cs">
+      <DependentUpon>Sopa_de_Recetas_MODIFICAR_MIS_RECETAS_INGREDIENTE.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Apariencia\Sopa_de_Recetas_MODIFICAR_MIS_RECETAS_INGREDIENTE.aspx.designer.cs">
+      <DependentUpon>Sopa_de_Recetas_MODIFICAR_MIS_RECETAS_INGREDIENTE.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Apariencia\Sopa_de_Recetas_ADMINISTRADOR.aspx.cs">
+      <DependentUpon>Sopa_de_Recetas_ADMINISTRADOR.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Apariencia\Sopa_de_Recetas_ADMINISTRADOR.aspx.designer.cs">
+      <DependentUpon>Sopa_de_Recetas_ADMINISTRADOR.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Apariencia\Sopa_de_Recetas_CREAR_RECETAS.aspx.cs">
+      <DependentUpon>Sopa_de_Recetas_CREAR_RECETAS.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Apariencia\Sopa_de_Recetas_CREAR_RECETAS.aspx.designer.cs">
+      <DependentUpon>Sopa_de_Recetas_CREAR_RECETAS.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Apariencia\Sopa_de_Recetas_CREAR_RECETAS_IMAGEN.aspx.cs">
+      <DependentUpon>Sopa_de_Recetas_CREAR_RECETAS_IMAGEN.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Apariencia\Sopa_de_Recetas_CREAR_RECETAS_IMAGEN.aspx.designer.cs">
+      <DependentUpon>Sopa_de_Recetas_CREAR_RECETAS_IMAGEN.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Apariencia\Sopa_de_Recetas_CREAR_RECETAS_INGREDIENTE.aspx.cs">
+      <DependentUpon>Sopa_de_Recetas_CREAR_RECETAS_INGREDIENTE.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Apariencia\Sopa_de_Recetas_CREAR_RECETAS_INGREDIENTE.aspx.designer.cs">
+      <DependentUpon>Sopa_de_Recetas_CREAR_RECETAS_INGREDIENTE.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Apariencia\Sopa_de_Recetas_CREAR_RECETAS_INSTRUCCIONES.aspx.cs">
+      <DependentUpon>Sopa_de_Recetas_CREAR_RECETAS_INSTRUCCIONES.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Apariencia\Sopa_de_Recetas_CREAR_RECETAS_INSTRUCCIONES.aspx.designer.cs">
+      <DependentUpon>Sopa_de_Recetas_CREAR_RECETAS_INSTRUCCIONES.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Apariencia\Sopa_de_Recetas_INFORMACION.aspx.cs">
+      <DependentUpon>Sopa_de_Recetas_INFORMACION.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Apariencia\Sopa_de_Recetas_INFORMACION.aspx.designer.cs">
+      <DependentUpon>Sopa_de_Recetas_INFORMACION.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Apariencia\Sopa_de_Recetas_INGRESO.aspx.cs">
+      <DependentUpon>Sopa_de_Recetas_INGRESO.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Apariencia\Sopa_de_Recetas_INGRESO.aspx.designer.cs">
+      <DependentUpon>Sopa_de_Recetas_INGRESO.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Apariencia\Sopa_de_Recetas_MIS_RECETAS.aspx.cs">
+      <DependentUpon>Sopa_de_Recetas_MIS_RECETAS.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Apariencia\Sopa_de_Recetas_MIS_RECETAS.aspx.designer.cs">
+      <DependentUpon>Sopa_de_Recetas_MIS_RECETAS.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Apariencia\Sopa_de_Recetas_MODIFICAR_MIS_RECETAS.aspx.cs">
+      <DependentUpon>Sopa_de_Recetas_MODIFICAR_MIS_RECETAS.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Apariencia\Sopa_de_Recetas_MODIFICAR_MIS_RECETAS.aspx.designer.cs">
+      <DependentUpon>Sopa_de_Recetas_MODIFICAR_MIS_RECETAS.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Apariencia\Sopa_de_Recetas_MODIFICAR_MIS_RECETAS_IMAGEN.aspx.cs">
+      <DependentUpon>Sopa_de_Recetas_MODIFICAR_MIS_RECETAS_IMAGEN.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Apariencia\Sopa_de_Recetas_MODIFICAR_MIS_RECETAS_IMAGEN.aspx.designer.cs">
+      <DependentUpon>Sopa_de_Recetas_MODIFICAR_MIS_RECETAS_IMAGEN.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Apariencia\Sopa_de_Recetas_MODIFICAR_MIS_RECETAS_INSTRUCCIONES.aspx.cs">
+      <DependentUpon>Sopa_de_Recetas_MODIFICAR_MIS_RECETAS_INSTRUCCIONES.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Apariencia\Sopa_de_Recetas_MODIFICAR_MIS_RECETAS_INSTRUCCIONES.aspx.designer.cs">
+      <DependentUpon>Sopa_de_Recetas_MODIFICAR_MIS_RECETAS_INSTRUCCIONES.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Apariencia\Sopa_de_Recetas_MOSTRAR_RECETAS.aspx.cs">
+      <DependentUpon>Sopa_de_Recetas_MOSTRAR_RECETAS.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Apariencia\Sopa_de_Recetas_MOSTRAR_RECETAS.aspx.designer.cs">
+      <DependentUpon>Sopa_de_Recetas_MOSTRAR_RECETAS.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Apariencia\Sopa_de_Recetas_PERFIL_DE_ADMINISTRADOR.aspx.cs">
+      <DependentUpon>Sopa_de_Recetas_PERFIL_DE_ADMINISTRADOR.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Apariencia\Sopa_de_Recetas_PERFIL_DE_ADMINISTRADOR.aspx.designer.cs">
+      <DependentUpon>Sopa_de_Recetas_PERFIL_DE_ADMINISTRADOR.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Apariencia\Sopa_de_Recetas_PERFIL_DE_USUARIO.aspx.cs">
+      <DependentUpon>Sopa_de_Recetas_PERFIL_DE_USUARIO.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Apariencia\Sopa_de_Recetas_PERFIL_DE_USUARIO.aspx.designer.cs">
+      <DependentUpon>Sopa_de_Recetas_PERFIL_DE_USUARIO.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Apariencia\Sopa_de_Recetas_PRINCIPAL.aspx.cs">
+      <DependentUpon>Sopa_de_Recetas_PRINCIPAL.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Apariencia\Sopa_de_Recetas_PRINCIPAL.aspx.designer.cs">
+      <DependentUpon>Sopa_de_Recetas_PRINCIPAL.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Apariencia\Sopa_de_Recetas_RECETAS.aspx.cs">
+      <DependentUpon>Sopa_de_Recetas_RECETAS.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Apariencia\Sopa_de_Recetas_RECETAS.aspx.designer.cs">
+      <DependentUpon>Sopa_de_Recetas_RECETAS.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Apariencia\Sopa_de_Recetas_RECUPERAR_CLAVE.aspx.cs">
+      <DependentUpon>Sopa_de_Recetas_RECUPERAR_CLAVE.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Apariencia\Sopa_de_Recetas_RECUPERAR_CLAVE.aspx.designer.cs">
+      <DependentUpon>Sopa_de_Recetas_RECUPERAR_CLAVE.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Apariencia\Sopa_de_Recetas_REGISTRO.aspx.cs">
+      <DependentUpon>Sopa_de_Recetas_REGISTRO.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Apariencia\Sopa_de_Recetas_REGISTRO.aspx.designer.cs">
+      <DependentUpon>Sopa_de_Recetas_REGISTRO.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Centro\Apariencia\AgregarImagenXReceta.aspx.cs">
+      <DependentUpon>AgregarImagenXReceta.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Centro\Apariencia\AgregarImagenXReceta.aspx.designer.cs">
+      <DependentUpon>AgregarImagenXReceta.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Centro\Apariencia\AgregarReceta.aspx.cs">
+      <DependentUpon>AgregarReceta.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Centro\Apariencia\AgregarReceta.aspx.designer.cs">
+      <DependentUpon>AgregarReceta.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Centro\Apariencia\Perfil.aspx.cs">
+      <DependentUpon>Perfil.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Centro\Apariencia\Perfil.aspx.designer.cs">
+      <DependentUpon>Perfil.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Centro\Apariencia\Principal.aspx.cs">
+      <DependentUpon>Principal.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Centro\Apariencia\Principal.aspx.designer.cs">
+      <DependentUpon>Principal.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Enlaces\Apariencia\Configuracion.aspx.cs">
+      <DependentUpon>Configuracion.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Enlaces\Apariencia\Configuracion.aspx.designer.cs">
+      <DependentUpon>Configuracion.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Enlaces\Apariencia\MisRecetas.aspx.cs">
+      <DependentUpon>MisRecetas.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Enlaces\Apariencia\MisRecetas.aspx.designer.cs">
+      <DependentUpon>MisRecetas.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Enlaces\Apariencia\Perfil.aspx.cs">
+      <DependentUpon>Perfil.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Enlaces\Apariencia\Perfil.aspx.designer.cs">
+      <DependentUpon>Perfil.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Enlaces\Apariencia\Recetario.aspx.cs">
+      <DependentUpon>Recetario.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Enlaces\Apariencia\Recetario.aspx.designer.cs">
+      <DependentUpon>Recetario.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Entrada\Apariencia\Ingreso.aspx.cs">
+      <DependentUpon>Ingreso.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Entrada\Apariencia\Ingreso.aspx.designer.cs">
+      <DependentUpon>Ingreso.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Entrada\Apariencia\Recuperacion.aspx.cs">
+      <DependentUpon>Recuperacion.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Entrada\Apariencia\Recuperacion.aspx.designer.cs">
+      <DependentUpon>Recuperacion.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Entrada\Apariencia\Registro.aspx.cs">
+      <DependentUpon>Registro.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Entrada\Apariencia\Registro.aspx.designer.cs">
+      <DependentUpon>Registro.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Apariencia\Principal.Master" />
+    <None Include="packages.config" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ENTIDADES\ENTIDADES.csproj">
+      <Project>{eba477f2-e426-4969-a6d0-06b983058de9}</Project>
+      <Name>ENTIDADES</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\NEGOCIO\NEGOCIO.csproj">
+      <Project>{f34f5c32-bb80-4825-a118-bd2d5f67f199}</Project>
+      <Name>NEGOCIO</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup />
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>52808</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:52808/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>Este proyecto hace referencia a los paquetes NuGet que faltan en este equipo. Use la restauración de paquetes NuGet para descargarlos. Para obtener más información, consulte http://go.microsoft.com/fwlink/?LinkID=322105. El archivo que falta es {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\Microsoft.Net.Compilers.2.6.1\build\Microsoft.Net.Compilers.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.Net.Compilers.2.6.1\build\Microsoft.Net.Compilers.props'))" />
+    <Error Condition="!Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.8\build\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.8\build\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props'))" />
+  </Target>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
